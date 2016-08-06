@@ -3375,7 +3375,7 @@ input[type="submit"].largebtn {
 input[type="submit"].mediumbtn {
 	font-size: 13px;
 	line-height: 14px;
-	padding: 15px 20px;
+	padding: 15px 20px 8px 20px;
 }
 .button-shape-circular input[type="submit"].mediumbtn{
 	padding: 15px 30px;
@@ -4637,4 +4637,13 @@ body.single-page-version .single-page-nav-wrap-inner .sinle-page-nav-links {
     h3 {
         page-break-after: avoid;
     }
+}
+
+
+/* 	======================================
+		PAGE BUILDER PLUGIN OVERRIDE
+	====================================== */
+
+.circular.mediumbtn {
+	padding: 15px 20px 8px 20px!important;
 }

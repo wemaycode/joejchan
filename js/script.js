@@ -1063,7 +1063,12 @@
 				jQuery('html, body').animate({
 					scrollTop: jQuery("#what").offset().top - 100
 				}, 800);	
-			}		
+			}
+			else if (jQuery(this).attr('id') == 'menu-item-108'){					
+				jQuery('html, body').animate({
+					scrollTop: jQuery("#what").offset().top - 100
+				}, 800);	
+			}			
 		});
 		
 	});// END DOCUMENT READY EVENT

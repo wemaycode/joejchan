@@ -1056,8 +1056,14 @@
     
 		/*========  CUSTOM CODE ========= */
 		console.log("load page");
-		jQuery('ul#menu .menu-item').click(function(){
-			console.log("clicked: ") + jQuery(this).attr('id');
+		
+		// smooth scroll top nav items to sections on page
+		jQuery('ul#menu li.menu-item').click(function(){
+			if (jQuery(this).attr('id') == 'menu-item-107'){					
+				jQuery('html, body').animate({
+					scrollTop: jQuery("#what").offset().top - 100
+				}, 800);	
+			}		
 		});
 		
 	});// END DOCUMENT READY EVENT

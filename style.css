@@ -1052,6 +1052,7 @@ body.header-transparent #header-inner-wrap.background--dark.transparent .logo im
     position: relative;
     margin-bottom: 0;
     line-height: inherit;
+	cursor: pointer;
 }
 #navigation .sub-menu,
 #navigation .children,

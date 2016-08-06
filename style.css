@@ -4644,6 +4644,6 @@ body.single-page-version .single-page-nav-wrap-inner .sinle-page-nav-links {
 		PAGE BUILDER PLUGIN OVERRIDE
 	====================================== */
 
-.circular.mediumbtn {
+.circular.mediumbtn, .mediumbtn {
 	padding: 15px 20px 8px 20px!important;
 }

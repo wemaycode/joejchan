@@ -1053,7 +1053,10 @@
             e.preventDefault();
             jQuery('body,html').animate({ scrollTop: 0 }, 1000, 'easeInOutQuint');
         });
-    });// END DOCUMENT READY EVENT
+    
+		console.log("load page");
+		
+	});// END DOCUMENT READY EVENT
 
 
     jQuery(window).smartresize(function () {

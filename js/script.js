@@ -1054,7 +1054,11 @@
             jQuery('body,html').animate({ scrollTop: 0 }, 1000, 'easeInOutQuint');
         });
     
+		/*========  CUSTOM CODE ========= */
 		console.log("load page");
+		jQuery('ul#menu .menu-item').click(function(){
+			console.log("clicked: ") + jQuery(this).attr('id');
+		});
 		
 	});// END DOCUMENT READY EVENT
 
